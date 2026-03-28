@@ -1,0 +1,23 @@
+views:
+  - type: table
+    name: All Systems to Build
+    filters:
+      and:
+        - type == "system"
+    order:
+      - file.name
+      - category
+      - status
+      - dependencies
+    sort:
+      - property: status
+        direction: ASC
+  - type: table
+    name: Decisions Log
+    filters:
+      and:
+        - type == "category"
+        - file.name == "Decisions"
+    order:
+      - file.name
+      - file.mtime

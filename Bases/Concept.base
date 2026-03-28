@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Concept Notes
+    filters:
+      and:
+        - type == "concept"
+    order:
+      - file.name
+      - file.mtime
+  - type: table
+    name: Inspirations
+    filters:
+      and:
+        - type == "inspiration"
+    order:
+      - file.name

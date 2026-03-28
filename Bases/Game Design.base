@@ -1,0 +1,62 @@
+views:
+  - type: table
+    name: All Mechanics
+    filters:
+      and:
+        - type == "mechanic"
+        - file.folder != "Templates"
+    order:
+      - file.name
+      - category
+      - status
+      - player_action
+      - unlock_condition
+    sort:
+      - property: status
+        direction: ASC
+  - type: table
+    name: To Prototype
+    filters:
+      and:
+        - type == "mechanic"
+        - status == "concept"
+    order:
+      - file.name
+      - category
+      - player_action
+  - type: table
+    name: Implemented
+    filters:
+      and:
+        - type == "mechanic"
+        - status == "implemented"
+    order:
+      - file.name
+      - category
+  - type: table
+    name: All Systems
+    filters:
+      and:
+        - type == "system"
+    order:
+      - file.name
+      - category
+      - status
+      - core_mechanic
+    sort:
+      - property: status
+        direction: ASC
+  - type: table
+    name: All Levels
+    filters:
+      and:
+        - type == "level"
+    order:
+      - file.name
+      - act
+      - difficulty
+      - status
+      - primary_mechanic
+    sort:
+      - property: act
+        direction: ASC

@@ -1,0 +1,63 @@
+views:
+  - type: table
+    name: All Characters
+    filters:
+      and:
+        - type == "character"
+        - file.folder != "Templates"
+    order:
+      - file.name
+      - role
+      - status
+      - arc
+      - gameplay_role
+    sort:
+      - property: role
+        direction: ASC
+  - type: table
+    name: Protagonists
+    filters:
+      and:
+        - type == "character"
+        - role == "protagonist"
+    order:
+      - file.name
+      - status
+      - arc
+  - type: table
+    name: Antagonists & Bosses
+    filters:
+      and:
+        - type == "character"
+        - or:
+            - role == "antagonist"
+            - role == "boss"
+    order:
+      - file.name
+      - role
+      - status
+  - type: table
+    name: Allies & Rivals
+    filters:
+      and:
+        - type == "character"
+        - role == "ally"
+    order:
+      - file.name
+      - status
+      - arc
+  - type: cards
+    name: Cards
+    filters:
+      and:
+        - type == "character"
+    order:
+      - file.name
+      - role
+      - arc
+  - type: table
+    name: without arc
+    filters:
+      and:
+        - type == "character"
+        - file.folder != "Templates"

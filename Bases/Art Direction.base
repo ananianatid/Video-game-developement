@@ -1,0 +1,29 @@
+views:
+  - type: table
+    name: Assets to Produce
+    filters:
+      and:
+        - type == "asset"
+    order:
+      - file.name
+      - status
+    sort:
+      - property: status
+        direction: ASC
+  - type: table
+    name: Character Designs
+    filters:
+      and:
+        - type == "character"
+    order:
+      - file.name
+      - role
+  - type: table
+    name: Environments
+    filters:
+      and:
+        - type == "location"
+    order:
+      - file.name
+      - world_layer
+      - mood

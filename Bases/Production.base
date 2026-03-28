@@ -1,0 +1,67 @@
+views:
+  - type: table
+    name: All Milestones
+    filters:
+      and:
+        - type == "milestone"
+        - file.folder != "Templates"
+    order:
+      - file.name
+      - phase
+      - status
+      - deadline
+      - owner
+    sort:
+      - property: deadline
+        direction: ASC
+  - type: table
+    name: Upcoming
+    filters:
+      and:
+        - type == "milestone"
+        - status == "upcoming"
+    order:
+      - file.name
+      - phase
+      - deadline
+      - owner
+    sort:
+      - property: deadline
+        direction: ASC
+  - type: table
+    name: In Progress
+    filters:
+      and:
+        - type == "milestone"
+        - status == "in-progress"
+    order:
+      - file.name
+      - phase
+      - deadline
+      - owner
+  - type: table
+    name: Delayed
+    filters:
+      and:
+        - type == "milestone"
+        - status == "delayed"
+    order:
+      - file.name
+      - phase
+      - deadline
+      - owner
+  - type: table
+    name: Done
+    filters:
+      and:
+        - type == "milestone"
+        - status == "done"
+    order:
+      - file.name
+      - phase
+  - type: table
+    name: Blocked
+    filters:
+      and:
+        - type == "milestone"
+        - status == "blocked"

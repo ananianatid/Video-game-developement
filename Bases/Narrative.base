@@ -1,0 +1,52 @@
+views:
+  - type: table
+    name: All Scenes
+    filters:
+      and:
+        - type == "scene"
+        - file.folder != "Templates"
+    order:
+      - file.name
+      - act
+      - status
+      - tone
+      - location
+    sort:
+      - property: act
+        direction: ASC
+  - type: table
+    name: Draft Scenes
+    filters:
+      and:
+        - type == "scene"
+        - status == "draft"
+    order:
+      - file.name
+      - act
+      - tone
+    sort:
+      - property: act
+        direction: ASC
+  - type: table
+    name: Events & Dilemmas
+    filters:
+      and:
+        - type == "event"
+    order:
+      - file.name
+      - category
+      - palier
+      - status
+      - has_passive_outcome
+    sort:
+      - property: palier
+        direction: ASC
+  - type: table
+    name: Final Scenes
+    filters:
+      and:
+        - type == "scene"
+        - status == "final"
+    order:
+      - file.name
+      - act

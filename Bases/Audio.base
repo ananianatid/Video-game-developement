@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Audio Assets
+    filters:
+      and:
+        - type == "audio"
+    order:
+      - file.name
+      - status
+    sort:
+      - property: status
+        direction: ASC
+  - type: table
+    name: All Files
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC

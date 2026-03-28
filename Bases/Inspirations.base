@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: All References
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC

@@ -1,0 +1,35 @@
+views:
+  - type: table
+    name: All Locations
+    filters:
+      and:
+        - type == "location"
+        - file.folder != "Templates"
+    order:
+      - file.name
+      - world_layer
+      - faction
+      - mood
+      - first_visit_act
+    sort:
+      - property: world_layer
+        direction: ASC
+  - type: table
+    name: Lore Notes
+    filters:
+      and:
+        - type == "lore"
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: cards
+    name: Locations Cards
+    filters:
+      and:
+        - type == "location"
+    order:
+      - file.name
+      - world_layer
+      - mood
