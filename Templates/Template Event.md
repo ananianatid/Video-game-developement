@@ -1,7 +1,7 @@
 ---
 type: event
 category: moral-choice | narrative | relationship | consequence
-palier: ""
+act: ""
 trigger: ""
 characters_involved: []
 has_passive_outcome: true
@@ -14,7 +14,7 @@ tags: [narrative, event]
 
 ## Déclencheur
 
-> Quand et comment cet événement se déclenche-t-il ? (Après un match, un message, une cinématique…)
+> Quand et comment cet événement se déclenche-t-il ? (Après une séquence de gameplay, un message, une cinématique…)
 
 ## Contexte narratif
 

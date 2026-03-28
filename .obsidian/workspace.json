@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Categories/Characters.md",
+                "file": "Wiki.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Characters"
+              "title": "Wiki"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "jane",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Categories/Characters.md",
+                "file": "Wiki.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Characters"
+              "title": "Backlinks for Wiki"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Categories/Characters.md",
+                "file": "Wiki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Characters"
+              "title": "Outgoing links from Wiki"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Categories/Characters.md",
+                "file": "Wiki.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Characters"
+              "title": "Outline of Wiki"
             }
           }
         ]
@@ -185,18 +185,28 @@
   },
   "active": "b1e352ee78b24a92",
   "lastOpenFiles": [
-    "Categories/Art Direction.md",
+    "Categories/Balance.md",
     "Home.md",
+    "Wiki.md",
+    "wiki.md",
+    "Templates/Template Quest.md",
+    "Templates/Template Organisation.md",
+    "Templates/Template Dialogue.md",
+    "Templates/Template Boss.md",
+    "Structure projet développement jeu vidéo",
+    "Structure projet développement jeu vidéo.zip",
+    "Templates/Template System.md",
+    "Templates/Template Milestone.md",
     "Templates/Template Character.md",
     "Templates/Template Event.md",
+    "Categories/Art Direction.md",
+    "Categories/Inspirations.md",
+    "Categories/Characters.md",
     "Templates/Template Level.md",
     "Templates/Template Location.md",
     "Templates/Template Mechanic.md",
-    "Templates/Template Milestone.md",
     "Templates/Template Person.md",
     "Templates/Template Scene.md",
-    "Templates/Template System.md",
-    "Untitled.md",
     "Pasted image 20260328154229.png",
     "Pasted image 20260328154300.png",
     "Categories/Production.md",

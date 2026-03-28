@@ -31,12 +31,12 @@ La catégorie **Audio** définit l'identité sonore du jeu. Elle couvre la struc
 | Contexte | Style / Ambiance | Références | Statut |
 |---|---|---|---|
 | Menu principal | | | `concept` |
-| Match standard | | | `concept` |
-| Match de boss | | | `concept` |
+| Exploration | | | `concept` |
+| Combat | | | `concept` |
+| Boss | | | `concept` |
 | Victoire | | | `concept` |
 | Défaite | | | `concept` |
 | Scènes narratives | | | `concept` |
-| Paliers du tournoi | | | `concept` |
 
 ---
 
@@ -52,7 +52,7 @@ La catégorie **Audio** définit l'identité sonore du jeu. Elle couvre la struc
 
 - **Format cible** —
 - **Budget mémoire** —
-- **Moteur audio** — (ex. Godot AudioStreamPlayer, FMOD, Wwise)
+- **Moteur audio** — (ex. FMOD, Wwise, moteur natif du moteur de jeu)
 
 ---
 
@@ -73,7 +73,7 @@ views:
 
 ## Principes audio
 
-- Le son doit renforcer l'esthétique **rétro-futuriste** — la synthwave et le chiptune comme base, pas comme costume.
-- Chaque palier du tournoi doit être soniquement distinct — le joueur doit *entendre* que les enjeux ont augmenté.
-- Le bip original de Pong est sacré. Les SFX de la balle et de la raquette doivent en être l'écho.
-- La musique adaptative doit évoluer selon l'écart de score, pas seulement selon le temps restant.
+- Le son doit renforcer l'esthétique définie dans [[Art Direction]] — cohérence visuelle et sonore dès le début.
+- Chaque contexte de jeu majeur (combat, exploration, repos, tension) doit être soniquement distinct.
+- Les SFX de gameplay central doivent être immédiatement reconnaissables et satisfaisants à répétition.
+- La musique adaptative doit réagir à l'état du jeu, pas seulement au temps ou à la progression linéaire.

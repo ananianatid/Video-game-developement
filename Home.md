@@ -23,6 +23,7 @@ tags: [moc]
 - [[Characters]]
 - [[Narrative]]
 - [[Game Design]]
+- [[Balance]]
 - [[Art Direction]]
 - [[Audio]]
 - [[UI-UX]]
@@ -58,10 +59,19 @@ tags: [moc]
 
 ---
 
+## Équilibrage — Problèmes ouverts
+
+![[Balance.base]]
+
+---
+
 ## Univers & Personnages
 
 ### Personnages sans arc défini
 ![[Characters.base]]
+
+### Organisations
+![[World.base]]
 
 ### Lieux
 ![[World.base]]

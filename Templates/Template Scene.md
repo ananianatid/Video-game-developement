@@ -21,7 +21,7 @@ tags: [narrative, scene]
 
 ## Déclencheur
 
-> Qu'est-ce qui provoque cette scène ? (fin de match, événement narratif, choix précédent...)
+> Qu'est-ce qui provoque cette scène ? (fin d'une séquence de gameplay, événement narratif, choix précédent...)
 
 ## Déroulement
 
